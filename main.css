@@ -1,0 +1,101 @@
+.header {
+ background-image: url('disney2.jpg');
+ background-size: cover;
+ background-position: center;
+ position: relative;
+}
+
+.overlay {
+ position: absolute;
+ min-height: 100%;
+ min-width: 100%;
+ left: 0;
+ top: 0;
+ background: rgba(0, 0, 0, 0.6);
+}
+
+.description {
+ left: 50%;
+ position: absolute;
+ top: 45%;
+ transform: translate(-50%, -55%);
+ text-align: center;
+}
+.description h1 {
+ color: #85C1E9;
+}
+.description p {
+ color: #FDFEFE;
+ font-size: 1.5rem;
+ line-height: 1.15;
+}
+
+.description button{
+ border:1px solid #3498DB;
+ background:#3498DB;
+ border-radius: 0;
+ color:#fff;
+}
+.description button:hover {
+ border:1px solid #fff;
+ background:#fff;
+ color:#000;
+}
+
+.features {
+ margin: 4em auto;
+ padding: 2em;
+ position: relative;
+}
+.feature-title {
+ color: #333;
+ font-size: 1.3rem;
+ font-weight: 800;
+ margin-bottom: 20px;
+ margin-top: 0px;
+ text-transform: uppercase;
+}
+
+.features img {
+ -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+ -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+ box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+ margin-bottom: 20px;
+}
+
+.features .form-control,
+.features input {
+ border-radius: 0;
+}
+.features .btn {
+ background-color:#1A5276 ;
+ border: 1px solid #1A5276;
+ color: #fff;
+ margin-top: 20px;
+}
+.features .btn:hover {
+ background-color:#1A5276 ;
+ border: 1px solid#1A5276 ;
+}
+
+body {
+padding: 0;
+margin: 0;
+ background-image: url('bg.jpg');;
+}
+.navbar {
+background:#154360;
+}
+.nav-link,
+.navbar-brand {
+color: #fff;
+cursor: pointer;
+}
+.nav-link {
+margin-right: 1em !important;
+}
+.nav-link:hover {
+color: #000;
+}
+.navbar-collapse {
+justify-content: flex-end;
